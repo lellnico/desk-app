@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Desk · Confidentialité</title>
+<style>
+  :root { color-scheme: light dark; --fond: #f6f6f8; --texte: #1c1c1e; --doux: #6b6b70; --accent: #0a5fcc; }
+  @media (prefers-color-scheme: dark) { :root { --fond: #000; --texte: #f2f2f7; --doux: #a1a1a6; --accent: #5aa9ff; } }
+  body { margin: 0; background: var(--fond); color: var(--texte); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif; }
+  main { max-width: 640px; margin: 0 auto; padding: 56px 20px; }
+  h1 { font-size: 30px; margin: 0 0 8px; }
+  h2 { font-size: 20px; margin: 28px 0 8px; }
+  p, li { margin: 0 0 10px; }
+  .doux { color: var(--doux); }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Politique de confidentialité</h1>
+  <p class="doux">Desk, app iOS personnelle. Mise à jour : 13 novembre 2026.</p>
+
+  <h2>Accès demandé</h2>
+  <p>Desk demande un seul accès à Google : <code>drive.file</code>. Il permet uniquement de créer une Google Sheet « Desk » et de lire les fichiers que l'app a elle-même créés. Desk n'a accès ni à Gmail, ni à Google Agenda, ni aux autres fichiers du Drive.</p>
+
+  <h2>Données traitées</h2>
+  <ul>
+    <li>Le contenu de la feuille « Desk » (comptes rendus), lu pour être affiché.</li>
+    <li>Un jeton d'authentification Google, rangé dans le trousseau de l'iPhone.</li>
+    <li>Un cache local des comptes rendus et l'état « Fait / Plus tard » des éléments, stockés sur l'iPhone avec la protection des données d'iOS.</li>
+  </ul>
+
+  <h2>Partage</h2>
+  <p>Aucune donnée n'est envoyée à un serveur tiers. Desk ne contient ni publicité, ni outil d'analyse, ni outil de suivi des plantages. Les seuls échanges réseau se font avec les serveurs de Google, pour l'authentification et la lecture de la feuille.</p>
+
+  <h2>Conservation et suppression</h2>
+  <p>Les données restent sur l'iPhone et dans le Drive de l'utilisateur. La déconnexion depuis l'app révoque l'accès chez Google et efface le jeton. Supprimer l'app efface son cache. L'accès peut aussi être retiré à tout moment sur <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
+
+  <h2>Contact</h2>
+  <p>Pour toute question, ouvrez un ticket sur le dépôt GitHub de cette page.</p>
+
+  <p><a href="./">Retour</a></p>
+</main>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Desk</title>
+<style>
+  :root { color-scheme: light dark; --fond: #f6f6f8; --texte: #1c1c1e; --doux: #6b6b70; --accent: #0a5fcc; }
+  @media (prefers-color-scheme: dark) { :root { --fond: #000; --texte: #f2f2f7; --doux: #a1a1a6; --accent: #5aa9ff; } }
+  body { margin: 0; background: var(--fond); color: var(--texte); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif; }
+  main { max-width: 640px; margin: 0 auto; padding: 56px 20px; }
+  h1 { font-size: 34px; margin: 0 0 8px; }
+  p { margin: 0 0 16px; }
+  .doux { color: var(--doux); }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Desk</h1>
+  <p class="doux">App iOS personnelle, non distribuée.</p>
+  <p>Desk affiche, sur iPhone, les comptes rendus que des tâches automatisées écrivent dans une Google Sheet : mails et messages à traiter, agenda, embargos, idées de sujets.</p>
+  <p>L'app ne demande qu'un accès Google : les fichiers qu'elle crée elle-même (scope <code>drive.file</code>). Elle ne lit ni Gmail, ni l'agenda, ni le reste du Drive, et n'envoie rien.</p>
+  <p><a href="confidentialite.html">Politique de confidentialité</a></p>
+</main>
+</body>
+</html>
